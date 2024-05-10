@@ -1,6 +1,6 @@
 # 동작 방식
 - yarn install 후 yarn dev 명령어로 실행
-- 
+  
 - 첫 화면에서 CSV파일 업로드
   - key값은 메일로 보내주신
     - Id
