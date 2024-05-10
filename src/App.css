@@ -1,0 +1,45 @@
+#root {
+  margin: 0;
+  width: 100%;
+  min-height: 100vh;
+  text-align: center;
+  background-color: white;
+}
+
+body {
+  height: auto;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.main-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  min-height: 100vh;
+  background-color: white;
+  align-items: flex-start;
+}
+
+.tree-select {
+  flex: 1;
+}
+
+.table-container {
+  flex: 2;
+  overflow-y: auto;
+  max-height: 100vh;
+}

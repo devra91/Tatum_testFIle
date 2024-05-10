@@ -1,0 +1,40 @@
+table {
+  width: auto;
+  min-width: 80%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+
+th,
+td {
+  text-align: left;
+}
+
+td {
+  color: #2e2e2e;
+  border-bottom: 1px solid #ddd;
+  font-size: 8px;
+  padding: 6px;
+}
+
+th {
+  color: #666666;
+  background-color: #f2f2f2;
+  font-size: 10px;
+  font-weight: 600;
+  position: relative;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  padding: 4px;
+}
+
+th:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 30%; /* Creates space at the top */
+  bottom: 30%; /* Creates space at the bottom */
+  width: 1px;
+  background-color: #ccc; /* Color of the line */
+}
